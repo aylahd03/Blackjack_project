@@ -96,6 +96,3 @@ def blackjack_game():
 if __name__ == "__main__":
     blackjack_game()
 
-# OH
-# importing to command line, what does ls do in terminal
-# commiting to git, why is it taking so long
