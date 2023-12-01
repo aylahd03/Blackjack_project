@@ -62,7 +62,7 @@ def blackjack_game():
             break
 
         # Ask the player to hit or stand
-        action = input("Do you want to hit or stand? ").lower()
+        action = input("Do you want to hit or stand?").lower()
 
         # Draw a new card if the player chooses to hit
         if action == "hit":
@@ -93,6 +93,20 @@ def blackjack_game():
         else:
             print("Wrong input. Please enter 'hit' or 'stand'.")
 
-if __name__ == "__main__":
-    blackjack_game()
+#if __name__ == "__main__":
+blackjack_game()
+
+while True:
+    action = input("Would you like to play again?")
+    if action == ("Yes").lower():
+        blackjack_game()
+    elif action == ("No").lower():
+        print("Thanks for playing!")
+        break
+
+
+
+        
+
+
 
